@@ -10,7 +10,7 @@ router.post("/create-user", (req, res) => {
 });
 
 router.get("/read", (req, res) => {
-  res.status(201).json({ data });
+  res.status(200).json({ data });
 });
 
 router.get("/details/:id", (req, res) => {
